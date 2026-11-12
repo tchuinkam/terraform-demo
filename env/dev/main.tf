@@ -21,5 +21,6 @@ module "app_bucket" {
   enable_versioning = false
   tags = {
     env = terraform.workspace
+    owner2 = "data-team"
   }
 }
